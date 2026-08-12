@@ -1,0 +1,254 @@
+{
+  "cohort_size": 12,
+  "dataset": "TR-CAMO+TR-COD10K",
+  "generated_without_gt": true,
+  "route_counts": {
+    "high": 4,
+    "low": 4,
+    "medium": 4
+  },
+  "samples": [
+    {
+      "area_ratio": 0.0,
+      "component_count": 0,
+      "dataset": "TR-CAMO",
+      "image_name": "camourflage_00105",
+      "index": 91,
+      "is_empty": true,
+      "localization_components": {
+        "area_agreement": 0.0,
+        "centroid_agreement": 0.0,
+        "component_agreement": 0.0,
+        "region_iou": 0.0,
+        "semantic_margin": 0.0
+      },
+      "localization_reliability": 0.0,
+      "route": "low",
+      "selection_reasons": [
+        "low_reliability_coverage",
+        "empty"
+      ]
+    },
+    {
+      "area_ratio": 0.74609375,
+      "component_count": 1,
+      "dataset": "TR-CAMO",
+      "image_name": "camourflage_00417",
+      "index": 354,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.8273244781783681,
+        "centroid_agreement": 0.9504960600005288,
+        "component_agreement": 0.09090909090909091,
+        "region_iou": 0.6879929886064855,
+        "semantic_margin": 0.5926705598831177
+      },
+      "localization_reliability": 0.6298786355155181,
+      "route": "medium",
+      "selection_reasons": [
+        "medium_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.62109375,
+      "component_count": 1,
+      "dataset": "TR-CAMO",
+      "image_name": "camourflage_00488",
+      "index": 411,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.9397874852420307,
+        "centroid_agreement": 0.9994156892083094,
+        "component_agreement": 1.0,
+        "region_iou": 0.9171528588098017,
+        "semantic_margin": 0.8092698454856873
+      },
+      "localization_reliability": 0.9331251757491656,
+      "route": "high",
+      "selection_reasons": [
+        "high_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.2734375,
+      "component_count": 2,
+      "dataset": "TR-CAMO",
+      "image_name": "camourflage_00527",
+      "index": 442,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.6768802228412256,
+        "centroid_agreement": 0.983949383017137,
+        "component_agreement": 0.5,
+        "region_iou": 0.6314363143631436,
+        "semantic_margin": 0.7675746083259583
+      },
+      "localization_reliability": 0.711968105709493,
+      "route": "high",
+      "selection_reasons": [
+        "high_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.0,
+      "component_count": 0,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-1-Aquatic-15-SeaHorse-1046",
+      "index": 1360,
+      "is_empty": true,
+      "localization_components": {
+        "area_agreement": 0.0,
+        "centroid_agreement": 0.0,
+        "component_agreement": 0.0,
+        "region_iou": 0.0,
+        "semantic_margin": 0.0
+      },
+      "localization_reliability": 0.0,
+      "route": "low",
+      "selection_reasons": [
+        "low_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.1796875,
+      "component_count": 9,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-1-Aquatic-16-Shrimp-1113",
+      "index": 1428,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.8185185185185185,
+        "centroid_agreement": 0.9038355920991888,
+        "component_agreement": 0.0625,
+        "region_iou": 0.27202072538860106,
+        "semantic_margin": 0.3799930214881897
+      },
+      "localization_reliability": 0.4873735714988996,
+      "route": "medium",
+      "selection_reasons": [
+        "multi"
+      ]
+    },
+    {
+      "area_ratio": 0.0078125,
+      "component_count": 1,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-2-Terrestrial-26-Chameleon-1680",
+      "index": 2020,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.0,
+        "centroid_agreement": 0.0,
+        "component_agreement": 0.0,
+        "region_iou": 0.0,
+        "semantic_margin": 0.0
+      },
+      "localization_reliability": 0.0,
+      "route": "low",
+      "selection_reasons": [
+        "small"
+      ]
+    },
+    {
+      "area_ratio": 0.3671875,
+      "component_count": 2,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-2-Terrestrial-28-Deer-1799",
+      "index": 2084,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.7925696594427245,
+        "centroid_agreement": 0.9908303916163118,
+        "component_agreement": 0.1,
+        "region_iou": 0.6150627615062761,
+        "semantic_margin": 0.402528315782547
+      },
+      "localization_reliability": 0.5801982256695719,
+      "route": "medium",
+      "selection_reasons": [
+        "medium_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.453125,
+      "component_count": 2,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-2-Terrestrial-44-Snake-2473",
+      "index": 2498,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.9698890649762282,
+        "centroid_agreement": 0.9884961164514191,
+        "component_agreement": 0.09090909090909091,
+        "region_iou": 0.719225449515906,
+        "semantic_margin": 0.5814905762672424
+      },
+      "localization_reliability": 0.6700020596239773,
+      "route": "high",
+      "selection_reasons": [
+        "high_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.015625,
+      "component_count": 1,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-2-Terrestrial-45-Spider-2557",
+      "index": 2548,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.10222222222222223,
+        "centroid_agreement": 0.7757080214480565,
+        "component_agreement": 0.07142857142857142,
+        "region_iou": 0.08296943231441048,
+        "semantic_margin": 0.6221234798431396
+      },
+      "localization_reliability": 0.33089034545128004,
+      "route": "medium",
+      "selection_reasons": [
+        "medium_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.69140625,
+      "component_count": 1,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-3-Flying-55-Butterfly-3310",
+      "index": 2998,
+      "is_empty": false,
+      "localization_components": {
+        "area_agreement": 0.9015706806282723,
+        "centroid_agreement": 0.9908635758704286,
+        "component_agreement": 0.25,
+        "region_iou": 0.8683127572016461,
+        "semantic_margin": 0.8076115846633911
+      },
+      "localization_reliability": 0.7636717196727477,
+      "route": "high",
+      "selection_reasons": [
+        "high_reliability_coverage"
+      ]
+    },
+    {
+      "area_ratio": 0.0,
+      "component_count": 0,
+      "dataset": "TR-COD10K",
+      "image_name": "COD10K-CAM-3-Flying-62-Mantis-4340",
+      "index": 3598,
+      "is_empty": true,
+      "localization_components": {
+        "area_agreement": 0.0,
+        "centroid_agreement": 0.0,
+        "component_agreement": 0.0,
+        "region_iou": 0.0,
+        "semantic_margin": 0.0
+      },
+      "localization_reliability": 0.0,
+      "route": "low",
+      "selection_reasons": [
+        "low_reliability_coverage"
+      ]
+    }
+  ],
+  "selection": "four reliability-stratified samples per route plus empty/small/multi coverage"
+}

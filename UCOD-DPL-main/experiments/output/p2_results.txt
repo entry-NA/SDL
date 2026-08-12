@@ -1,0 +1,10 @@
+N=99
+Coarse IoU: 0.4071
+
+best_iou: IoU=0.5806  delta=0.1735  win=70.7%
+edge_align: IoU=0.5513  delta=0.1443  win=61.6%
+reverse: IoU=0.181  delta=-0.226  win=18.2%
+cpi_union: IoU=0.4071  delta=0.0  win=0.0%
+area_match: IoU=0.4075  delta=0.0005  win=1.0%
+
+BEST: best_iou
